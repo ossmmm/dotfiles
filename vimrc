@@ -21,6 +21,8 @@ nmap <ESC><ESC> :noh<CR> " ESCx2で検索ハイライトを消す
 
 let mapleader = "\<Space>" " leaderをスペースキーに
 
+nnoremap <leader>c :!clip.exe < %<CR> " leader+cでファイル内容をクリップボードへコピー
+
 " 移動系
 nnoremap j gj
 nnoremap k gk
